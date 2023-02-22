@@ -1,0 +1,13 @@
+import java.util.*;
+import java.util.stream.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);
+        Set<Integer> nums = new HashSet<>();
+        nums.add(data.nextInt());
+        nums.add(data.nextInt());
+        nums.add(data.nextInt());
+        System.out.println(nums.size());
+    }
+}

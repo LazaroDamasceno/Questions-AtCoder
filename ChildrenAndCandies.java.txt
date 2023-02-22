@@ -1,0 +1,10 @@
+import java.util.*;
+import java.util.stream.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);
+        int number = data.nextInt();
+        System.out.println(IntStream.rangeClosed(1,number).sum());
+    }
+}

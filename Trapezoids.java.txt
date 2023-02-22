@@ -1,0 +1,13 @@
+import java.util.*;
+import java.util.stream.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);
+        int a = data.nextInt();
+        int b = data.nextInt();
+        int h = data.nextInt();
+        int areaTrapezium = ((a + b) * h) / 2;
+        System.out.println(areaTrapezium);
+    }
+}

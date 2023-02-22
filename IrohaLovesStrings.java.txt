@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.stream.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);
+        int testcases = data.nextInt();
+        int lenght = data.nextInt();
+        String[] expressions = new String[testcases];
+        for (int i = 0; i < testcases; i++) {
+            expressions[i] = data.next();
+        }
+        Arrays.sort(expressions);
+        String answer = "";
+        for (String item : expressions) {
+            answer += item;
+        }
+        System.out.println(answer);
+    }
+}

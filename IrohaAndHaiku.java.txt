@@ -1,0 +1,12 @@
+import java.util.*;
+import java.util.stream.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner data = new Scanner(System.in);
+        int A = data.nextInt();
+        int B = data.nextInt();
+        int C = data.nextInt();
+        System.out.println(A + B + C == 17  ? "YES" : "NO");
+    }
+}
